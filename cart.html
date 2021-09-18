@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Emarket | E-commerce Website</title>
+    <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="Images/eMarket-logos/eMarket-logos_transparent.png" width="125px" alt="logo" /></a>
+          </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <i class="fa fa-shopping-cart"></i>
+        <img
+          class="menu-icon"
+          src="/Images/menu.png"
+          width="30px"
+          height="30px"
+          alt="menu"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+
+    <!-- ---------------cart items details---------------- -->
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="/Images/buy-1.jpg" alt="" />
+              <div>
+                <p>Red Printed T-shirt</p>
+                <small>Price: ₹559.00</small>
+                <br>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>₹559.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="/Images/buy-2.jpg" alt="" />
+              <div>
+                <p>HRX Sports Shoes</p>
+                <small>Price: ₹2599.00</small>
+                <br>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>₹2599.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="/Images/buy-3.jpg" alt="" />
+              <div>
+                <p>Nike Grey Trackpants</p>
+                <small>Price: ₹1099.00</small>
+                <br>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>₹1099.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="/Images/product-8.jpg" alt="" />
+              <div>
+                <p>Fossil Black Watch</p>
+                <small>Price: ₹3999.00</small>
+                <br>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>₹3999.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>₹8259.00</td>
+            </tr>
+            <tr>
+                <td>GST</td>
+                <td>₹743.31</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>₹9002.31</td>
+            </tr>
+        </table>
+
+      </div>
+
+    </div>
+
+    <!-- -----------------------footer----------------- -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and iOS mobile phones.</p>
+            <div class="app-logo">
+              <img src="/Images/play-store.png" alt="" />
+              <img src="/Images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="Images/eMarket-logos/eMarket-logos_transparent.png" alt="" />
+            <p>
+              Our purpose is to Sustainably Make the Pleasure and Benifits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Posts</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><i class="fa fa-facebook"></i>Facebook</li>
+                <li><i class="fa fa-twitter"></i>Twitter</li>
+                <li><i class="fa fa-instagram"></i>Instagram</li>
+                <li><i class="fa fa-youtube"></i>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">© 2021 eMarket, Inc. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

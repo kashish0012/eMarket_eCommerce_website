@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <title>Contact - eMarket | E-commerce Website</title>
+    <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Images/eMarket-logos/eMarket-logos_transparent.png" width="125px" alt="logo" /></a>
+                  </div>
+              <nav>
+                <ul id="MenuItems">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="account.html">Account</a></li>
+                </ul>
+              </nav>
+              <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+              
+              <img class="menu-icon" src="/Images/menu.png" width="30px" height="30px" alt="menu" onclick="menutoggle()"/>
+            </div>
+    
+          </div>
+
+    </header>
+
+    <div class="container my-5 px-5">
+      <h2>Contact Us</h2>
+      <form class="py-4 my-4">
+        <div class="row mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+          >Your Name</label
+        >
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Select your Query</label
+        >
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Choose an option</option>
+        <option>Return & Replacement</option>
+        <option>Account Related</option>
+        <option>Purchasing Product</option>
+        <option>Refund Related</option>
+        <option>Others</option>
+      </select>
+      </div>
+
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Are you a Buyer?</legend>
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Yes
+                </label>
+              </div>
+            </div>
+      </fieldset>
+      
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Are you a Seller?</legend>
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Yes
+                </label>
+              </div>
+            </div>
+      </fieldset>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Tell us about yourself</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3" placeholder="Write here..."
+        ></textarea>
+      </div>
+      
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Elaborate your concern</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3" placeholder="Write here..."
+        ></textarea>
+      </div>
+      <button type="submit" class="btn submit-btn">Submit</button>
+    </form>
+    </div>
+
+
+    <footer>
+
+        <!-- -----------------------footer----------------- -->
+    
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App for Android and iOS mobile phones.</p>
+              <div class="app-logo">
+                <img src="/Images/play-store.png" alt="">
+                <img src="/Images/app-store.png" alt="">
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="Images/eMarket-logos/eMarket-logos_transparent.png" alt="">
+              <p>Our purpose is to Sustainably Make the Pleasure and Benifits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Posts</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow Us</h3>
+              <ul>
+            <li><i class="fa fa-facebook"></i>Facebook</li>
+              <li><i class="fa fa-twitter"></i>Twitter</li>
+              <li><i class="fa fa-instagram"></i>Instagram</li>
+              <li><i class="fa fa-youtube"></i>YouTube</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="copyright">© 2021 eMarket, Inc. All rights reserved.</p>
+        </div>
+      </div>
+    
+       </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
